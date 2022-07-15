@@ -1,8 +1,8 @@
 <?php
 
-namespace GiocoPlus\Mongodb;
+namespace Ezijing\Mongodb;
 
-use GiocoPlus\Mongodb\Exception\MongoDBException;
+use Ezijing\Mongodb\Exception\MongoDBException;
 use Hyperf\Contract\ConnectionInterface;
 use Hyperf\Pool\Connection;
 use Hyperf\Pool\Exception\ConnectionException;
@@ -55,7 +55,6 @@ class MongoDbConnection extends Connection implements ConnectionInterface
      */
     public function reconnect(): bool
     {
-        // TODO: Implement reconnect() method.
         try {
             /**
              * http://php.net/manual/zh/mongodb-driver-manager.construct.php

@@ -70,7 +70,7 @@ return [
 # 使用案例
 
 使用注解，自动加载 
-**\GiocoPlus\Mongodb\MongoDb** 
+**\Ezijing\Mongodb\MongoDb** 
 ```php
 /**
  * @Inject()

@@ -1,5 +1,5 @@
 <?php
-namespace GiocoPlus\Mongodb;
+namespace Ezijing\Mongodb;
 
 /**
  * MongoDB 常數

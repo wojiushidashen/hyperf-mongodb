@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace GiocoPlus\Mongodb\Exception;
+namespace Ezijing\Mongodb\Exception;
 
 class MongoDBException extends \Exception
 {

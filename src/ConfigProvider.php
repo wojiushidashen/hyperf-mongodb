@@ -1,6 +1,6 @@
 <?php
 
-namespace GiocoPlus\Mongodb;
+namespace Ezijing\Mongodb;
 
 
 class ConfigProvider
@@ -9,7 +9,7 @@ class ConfigProvider
     {
         return [
             'dependencies' => [
-                MongoDb::class => \GiocoPlus\Mongodb\MongoDb::class,
+                MongoDb::class => \Ezijing\Mongodb\MongoDb::class,
             ],
             'commands' => [
             ],

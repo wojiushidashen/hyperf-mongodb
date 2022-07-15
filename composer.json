@@ -1,10 +1,10 @@
 {
-  "name": "gioco-plus/hyperf-mongodb",
+  "name": "ezijing/hyperf-mongodb",
   "license": "Apache-2.0",
   "authors": [
     {
-      "name": "Xuan.Yang",
-      "email": "yang5664@gmail.com"
+      "name": "YizhengWang",
+      "email": "18435134258"
     }
   ],
   "require": {
@@ -18,12 +18,12 @@
       "./src/Functions.php"
     ],
     "psr-4": {
-      "GiocoPlus\\Mongodb\\": "src/"
+      "Ezijing\\Mongodb\\": "src/"
     }
   },
   "extra": {
     "hyperf": {
-      "config": "GiocoPlus\\Mongodb\\ConfigProvider"
+      "config": "Ezijing\\Mongodb\\ConfigProvider"
     }
   }
 }

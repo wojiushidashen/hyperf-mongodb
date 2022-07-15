@@ -1,10 +1,10 @@
 <?php
 
-namespace GiocoPlus\Mongodb\Pool;
+namespace Ezijing\Mongodb\Pool;
 
 use Hyperf\Contract\ConfigInterface;
 use Hyperf\Contract\ConnectionInterface;
-use GiocoPlus\Mongodb\MongoDbConnection;
+use Ezijing\Mongodb\MongoDbConnection;
 use Hyperf\Pool\Pool;
 use Hyperf\Utils\Arr;
 use Psr\Container\ContainerInterface;

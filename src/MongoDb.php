@@ -1,14 +1,14 @@
 <?php
 
-namespace GiocoPlus\Mongodb;
+namespace Ezijing\Mongodb;
 
-use GiocoPlus\Mongodb\Exception\MongoDBException;
-use GiocoPlus\Mongodb\Pool\PoolFactory;
+use Ezijing\Mongodb\Exception\MongoDBException;
+use Ezijing\Mongodb\Pool\PoolFactory;
 use Hyperf\Utils\Context;
 
 /**
  * Class MongoDb
- * @package GiocoPlus\MongoDb
+ * @package Ezijing\MongoDb
  */
 class MongoDb
 {

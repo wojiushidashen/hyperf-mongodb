@@ -1,9 +1,9 @@
 <?php
 
 
-namespace GiocoPlus\Mongodb;
+namespace Ezijing\Mongodb;
 
-use  GiocoPlus\Mongodb\Exception\InvalidMongodbConnectionException;
+use  Ezijing\Mongodb\Exception\InvalidMongodbConnectionException;
 
 class MongodbConfiguration
 {

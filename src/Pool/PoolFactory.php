@@ -1,6 +1,6 @@
 <?php
 
-namespace GiocoPlus\Mongodb\Pool;
+namespace Ezijing\Mongodb\Pool;
 
 use Hyperf\Di\Container;
 use Psr\Container\ContainerInterface;
