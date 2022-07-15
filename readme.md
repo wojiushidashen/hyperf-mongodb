@@ -1,12 +1,12 @@
 # hyperf mongodb pool
 
 ```
-composer require gioco-plus/hyperf-mongodb
+composer require ezijing/hyperf-mongodb
 
-php bin/hyperf.php vendor:publish "gioco-plus/hyperf-mongodb" 
+php bin/hyperf.php vendor:publish "ezijing/hyperf-mongodb" 
 ```
 
-# 動態切換連結池
+# 动态切换连接池
 ```php
     /**
      * @Inject
