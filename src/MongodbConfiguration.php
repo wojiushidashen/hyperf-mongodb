@@ -203,7 +203,11 @@ class MongodbConfiguration
             throw new InvalidMongodbConnectionException('error mongodb config host');
         }
         foreach ($this->getHost() as $host) {
-            $hosts[] = sprintf("%s:%d", $host, $this->getPort());
+            if ($this->username && $this->password && $this->database) {
+                $hosts[] = sprintf("%s:%s@%s:%d/%s", $this->username, $this->password, $host, $this->getPort(), $this->database);
+            } else {
+                $hosts[] = sprintf("%s:%d", $host, $this->getPort());
+            }
         }
         return "mongodb://" . implode(',', $hosts);
     }
